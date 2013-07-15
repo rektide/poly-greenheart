@@ -1,4 +1,4 @@
-<element name="x-cookie" constructor="XGreenHeart">
+<element name="x-greenheart" constructor="XGreenHeart">
 <script>
 var XGreenHeart= Object.create(HTMLElement.prototype);
 function a404(){
@@ -9,6 +9,6 @@ function a404(){
 XGreenHeart.readyCallback = function() {
 	var window.setInterval(a404, 3236)
 };
-this.register("greenheart",{prototype:XGreenHeart})
+this.register("x-greenheart",{prototype:XGreenHeart})
 </script>
 </element>
